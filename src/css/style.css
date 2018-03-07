@@ -176,3 +176,13 @@
         font-size: 150px;
     }
   }
+
+  .featured-service{
+      background: #0ac9eb;
+  }
+
+  @media (min-width: 601px){
+   .w3-quarter-fs {
+        width: 19.99999%;
+    }
+  }
