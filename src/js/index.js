@@ -1,6 +1,6 @@
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $("#myNavbar a, footer a[href='#home']").on('click', function(event) {
+  $("#myNavbar a, nav a, footer a[href='#home']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -31,4 +31,21 @@ $(document).ready(function(){
         }
     });
   });
+
+  $('.more_text').hide();
+    $('span.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+      event.preventDefault(); /* prevent the a from changing the url */
+      $(this).parents('blockquote, div').find('.more_text').show(); /* show the .more_text span */
+      $(this).hide();
+
+  });
+
+  $('span.read_less').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+    event.preventDefault(); /* prevent the a from changing the url */
+    $(this).parents('blockquote, div').find('.more_text').hide(); /* show the .more_text span */
+    $(this).parents('blockquote, div').find('span.read_more').show();
+
+});
 })

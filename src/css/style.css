@@ -186,3 +186,11 @@
         width: 19.99999%;
     }
   }
+  .more_text{
+      display: none;
+  }
+
+  span.read_more, span.read_less{
+      color: #0ac9eb;
+      border-bottom: 1px dashed #0ac9eb;
+  }
