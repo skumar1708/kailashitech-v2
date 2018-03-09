@@ -178,7 +178,8 @@
   }
 
   .featured-service{
-      background: #0ac9eb;
+      background: #338ac8;
+      /* #0ac9eb; */
   }
 
   @media (min-width: 601px){
