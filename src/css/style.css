@@ -195,3 +195,11 @@
       color: #0ac9eb;
       border-bottom: 1px dashed #0ac9eb;
   }
+
+  a.to-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #72f3c7 !important;
+    border-radius: 32px;
+  }

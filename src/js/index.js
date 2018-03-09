@@ -1,6 +1,6 @@
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $("#myNavbar a, nav a, footer a[href='#home']").on('click', function(event) {
+  $("#myNavbar a, nav a, a.to-top, a[href='#home'], a[href='#work']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
