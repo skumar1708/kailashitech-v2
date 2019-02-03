@@ -221,3 +221,7 @@
     top: -28px;
     font-size: 69px;
   }
+
+  img.w3-grayscale-max:hover {
+    filter: grayscale(0);
+}
