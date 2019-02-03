@@ -210,8 +210,8 @@
 
 
   .w3-container-modal{
-    position: fixed;
-    width: 95%;
+    position: absolute;
+    width: 100%;
     padding: 0;
   }
 
@@ -224,4 +224,7 @@
 
   img.w3-grayscale-max:hover {
     filter: grayscale(0);
+}
+.no-underline {
+    text-decoration: none;
 }
