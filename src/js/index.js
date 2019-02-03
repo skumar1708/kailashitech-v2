@@ -49,3 +49,11 @@ $(document).ready(function(){
 
 });
 })
+
+function w3_open() {
+  $("#mySidebar").css("display", "block");
+}
+
+function w3_close() {
+  $("#mySidebar").css("display", "none");
+}

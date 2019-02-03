@@ -179,7 +179,7 @@
 
   .featured-service{
       background: #338ac8;
-      /* #0ac9eb; */
+      padding-top: 18px;
   }
 
   @media (min-width: 601px){
