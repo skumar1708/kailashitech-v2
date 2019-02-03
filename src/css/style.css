@@ -207,3 +207,17 @@
       width:120px;
       height: 120px;
   }
+
+
+  .w3-container-modal{
+    position: fixed;
+    width: 95%;
+    padding: 0;
+  }
+
+  .modal-close-btn{
+    position: absolute;
+    right: 0;
+    top: -28px;
+    font-size: 69px;
+  }
